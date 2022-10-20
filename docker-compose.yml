@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+
+  tiktok-discord-emebeds:
+    build: '.'
+    env_file:
+        - .env     # path to your .env file
